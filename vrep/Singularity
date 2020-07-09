@@ -2,7 +2,7 @@ Bootstrap:docker
 From:ubuntu:16.04
 
 %environment
-	QT_DEBUG_PLUGINS=1	
+	QT_DEBUG_PLUGINS=1
 	LD_LIBRARY_PATH=/opt/conda/lib/:$LD_LIBRARY_PATH
 	LC_ALL=C
 	export QT_DEBUG_PLUGINS LD_LIBRARY_PATH LC_ALL
@@ -51,7 +51,6 @@ From:ubuntu:16.04
 	    /opt/conda/bin/conda install -y -c pytorch pytorch torchvision && \
 	    cd ~/chainerrl && /opt/conda/bin/python setup.py install && \
 	    /opt/conda/bin/conda clean -afy
-	
 
 %runscript
 	print('execute it with singularity command ;)')
