@@ -31,7 +31,6 @@ From:ubuntu:16.04
 	mesa-utils \
 	x11-apps \
 	tmux \
-	nvidia-cuda-toolkit \
 	&& rm -rf /var/lib/apt/lists/*
 
 	git clone https://github.com/chainer/chainerrl.git ~/chainerrl
