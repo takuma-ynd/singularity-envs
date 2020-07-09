@@ -49,7 +49,7 @@ From:ubuntu:16.04
 	    /opt/conda/bin/conda install -y python=3.6.8 && \
 	    /opt/conda/bin/conda install -y matplotlib scipy numpy && \
 	    /opt/conda/bin/conda install -y -c conda-forge opencv ipdb && \
-	    /opt/conda/bin/conda install -y -c conda-forge cupy cudatoolkit=9.1
+	    /opt/conda/bin/conda install -y -c conda-forge cupy && \
 	    /opt/conda/bin/conda install -y -c pytorch pytorch torchvision && \
 	    cd ~/chainerrl && /opt/conda/bin/python setup.py install && \
 	    /opt/conda/bin/conda clean -afy
