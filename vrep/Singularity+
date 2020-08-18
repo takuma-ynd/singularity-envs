@@ -30,6 +30,10 @@ From:ubuntu:16.04
 	libswscale-dev \
 	libxkbcommon-x11-0 \
 	mesa-utils \
+    libglib2.0-0 \
+    libsm6 \
+    libxrender1 \
+    libxext6 \
 	x11-apps \
 	tmux \
 	&& rm -rf /var/lib/apt/lists/*
